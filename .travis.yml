@@ -25,7 +25,7 @@ after_success:
  - docker push eafolabi/multi-worker
  - docker push eafolabi/multi-server
 
- deploy:
+deploy:
    provider: elasticbeanstalk
    region: "us-west-1"
    app: "multi-docker-react"
